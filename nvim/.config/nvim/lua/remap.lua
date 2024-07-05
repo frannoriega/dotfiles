@@ -12,8 +12,8 @@ keymap.set("n", "<C-l>", "<cmd>wincmd l<CR>")
 keymap.set("i", "jk", "<Esc>")
 
 -- Move up or down the selection
-keymap.set("v", "J", ":m '<-2<CR>gv=gv")
-keymap.set("v", "K", ":m '>+1<CR>gv=gv")
+keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 -- Move up a line and don't move the cursor
 keymap.set("n", "J", "mzJ`z")
