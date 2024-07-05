@@ -1,4 +1,4 @@
--- NoneLS for linting
+--[[ -- NoneLS for linting
 return {
 	"nvimtools/none-ls.nvim",
 	config = function()
@@ -17,13 +17,10 @@ return {
 				-- Python
 				null_ls.builtins.formatting.black,
 				null_ls.builtins.formatting.isort,
-				-- JSON/YAML
-				null_ls.builtins.formatting.prettier,
 				-- Git commit
 				null_ls.builtins.formatting.gitlint,
 			},
 		})
-
-		vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
 	end,
-}
+} ]]
+return {}
