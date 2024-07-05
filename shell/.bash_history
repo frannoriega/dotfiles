@@ -58,3 +58,131 @@ history
 sudo apt-get install -y curl git unzip xz-utils zip libglu1-mesa
 zsh
 exit
+nvim Workspace/install.sh 
+cd Workspace/
+mv install.sh dotfiles/
+cd dotfiles/
+nvim
+cd ..
+mkdir dotfiles/polybar
+mkdir dotfiles/rofi
+mkdir dotfiles/i3
+mkdir dotfiles/polybar/.config
+mkdir dotfiles/rofi/.config
+mkdir dotfiles/i3/.config
+mkdir dotfiles/starship
+mkdir dotfiles/starship/.config
+cp -r ../.config/i3 dotfiles/i3/.config/
+cp -r ../.config/polybar dotfiles/polybar/.config/
+cp -r ../.config/rofi dotfiles/rofi/.config/
+cd dotfiles
+stow i3 -t ~ --override
+stow i3 -t ~ --override=*.
+stow i3 -t ~ --adopt
+stow polybar -t ~ --adopt
+stow rofi -t ~ --adopt
+ls -latr ~/.config
+stow --adopt *
+ls
+mv install.sh ../
+stow --adopt *
+git restore .
+git status
+ls -latr ~/.config
+rm -rf ~/.config/i3
+rm -rf ~/.config/polybar/
+rm -rf ~/.config/rofi
+stow *
+ls -latr ~/.config
+stow * -t ~
+ls -latr ~/.config
+git status
+git add .
+git commit -m "config: Added config for i3, polybar and rofi
+"
+git commit --amend
+git commit -a
+git commit --amend
+vim ~/.bashrc
+git config --global core.editor "nvim"
+git commit --amend
+git push
+mv ../install.sh ./
+ls
+git status
+git add .
+git commit
+git push
+cd ..
+cd basquade/
+mkdir keywords
+yay -S protonup-qt
+yay -S polybar
+mkdir ~/.config/polybar
+vim ~/.config/polybar/config.ini
+vim ~/.config/polybar/mocha.ini
+vim ~/.config/polybar/config.ini
+polybar
+vim ~/.config/polybar/config.ini
+polybar
+vim ~/.config/polybar/config.ini
+polybar
+vim ~/.config/polybar/config.ini
+vim ~/.config/i3/config 
+vim ~/.config/polybar/launch_polybar.sh
+vim ~/.config/i3/config 
+chmod +x ~/.config/polybar/launch_polybar.sh 
+yay -S feh
+yay -S rofi
+rofi -show
+mkdir ~/.config/rofi
+vim ~/.config/rofi/config.rasi
+vim ~/.config/rofi/catppuccin-mocha.rasi
+rofi
+rofi -show
+vim ~/.config/i3/config 
+yay -S nvim
+pacman -S nvim
+sudo pacman -S nvim
+sudo pacman -S neovim
+history
+yay -S steam
+nvim /etc/pacman.conf
+sudo nvim /etc/pacman.conf 
+pacman -Sy
+sudo pacman -Sy
+sudo pacman -Sy steam
+cd Workspace/
+mkdir basquade
+cd basquade/
+git clone git@github.com:frannoriega/basquade.git
+cd basquade/
+ls
+git branch
+git checkout design-test
+cp scripts/genesis.py ../keywords/
+cd ../keywords/
+ls
+yay -Sy openoffice-bin
+yay -Sy stremio
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+cd Workspace/basquade/keywords/
+ls
+nvim pdfer.sh 
+yay -Sy libreoffice-bin
+yay -Sy libreoffice-still
+sudo su
+yay -Sy libreoffice-still
+cat .bashrc
+zsh
+cat .zshrc 
+staship init zsh
+starship init zsh
+eval "$starship init zsh"
+eval "$(starship init zsh)"
+eval "$(starship init bash)"
+exit
+nvim .config/polybar/config.ini 
+yay -Sy stremio
+chsh -s $(which zsh)
+exit
