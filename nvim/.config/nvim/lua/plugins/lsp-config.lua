@@ -42,10 +42,10 @@ return {
 
 			-- Global mappings.
 			-- See `:help vim.diagnostic.*` for documentation on any of the below functions
-			vim.keymap.set("n", "<leader>e", vim.diagnostic.open_float)
-			vim.keymap.set("n", "[d", vim.diagnostic.goto_prev)
-			vim.keymap.set("n", "]d", vim.diagnostic.goto_next)
-			vim.keymap.set("n", "<leader>q", vim.diagnostic.setloclist)
+			vim.keymap.set("n", "<leader>e", vim.diagnostic.open_float, { desc = "Open diagnostic window"})
+			vim.keymap.set("n", "[d", vim.diagnostic.goto_prev, { desc = "Go to previous"})
+			vim.keymap.set("n", "]d", vim.diagnostic.goto_next, { desc = "Go to next"})
+			vim.keymap.set("n", "<leader>q", vim.diagnostic.setloclist, { desc = "Set loc list"})
 
 			-- Use LspAttach autocommand to only map the following keys
 			-- after the language server attaches to the current buffer
@@ -58,23 +58,23 @@ return {
 					-- Buffer local mappings.
 					-- See `:help vim.lsp.*` for documentation on any of the below functions
 					local opts = { buffer = ev.buf }
-					vim.keymap.set("n", "gD", vim.lsp.buf.declaration, opts)
-					vim.keymap.set("n", "gd", vim.lsp.buf.definition, opts)
-					vim.keymap.set("n", "K", vim.lsp.buf.hover, opts)
-					vim.keymap.set("n", "gi", vim.lsp.buf.implementation, opts)
-					vim.keymap.set("n", "<C-k>", vim.lsp.buf.signature_help, opts)
-					vim.keymap.set("n", "<leader>wa", vim.lsp.buf.add_workspace_folder, opts)
-					vim.keymap.set("n", "<leader>wr", vim.lsp.buf.remove_workspace_folder, opts)
+					vim.keymap.set("n", "gD", vim.lsp.buf.declaration, table.move({ desc = "Go to declaration" }, 1, 1, 2, opts))
+					vim.keymap.set("n", "gd", vim.lsp.buf.definition, table.move({ desc = "Go to definition" }, 1, 1, 2, opts))
+					vim.keymap.set("n", "K", vim.lsp.buf.hover, table.move({ desc = "Show documentation" }, 1, 1, 2, opts))
+					vim.keymap.set("n", "gi", vim.lsp.buf.implementation, table.move({ desc = "Implementation?" }, 1, 1, 2, opts))
+					vim.keymap.set("n", "<C-k>", vim.lsp.buf.signature_help, table.move({ desc = "Show signature" }, 1, 1, 2, opts))
+					vim.keymap.set("n", "<leader>wa", vim.lsp.buf.add_workspace_folder, table.move({ desc = "Add workspace folder" }, 1, 1, 2, opts))
+					vim.keymap.set("n", "<leader>wr", vim.lsp.buf.remove_workspace_folder, table.move({ desc = "Remove workspace folder" }, 1, 1, 2, opts))
 					vim.keymap.set("n", "<leader>wl", function()
 						print(vim.inspect(vim.lsp.buf.list_workspace_folders()))
-					end, opts)
-					vim.keymap.set("n", "<leader>D", vim.lsp.buf.type_definition, opts)
-					vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, opts)
-					vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, opts)
-					vim.keymap.set("n", "gr", vim.lsp.buf.references, opts)
+					end, table.move({ desc = "List workspace folders" }, 1, 1, 2, opts))
+					vim.keymap.set("n", "<leader>D", vim.lsp.buf.type_definition, table.move({ desc = "Show type definition" }, 1, 1, 2, opts))
+					vim.keymap.set("n", "<leader>rn", vim.lsp.buf.rename, table.move({ desc = "Rename" }, 1, 1, 2, opts))
+					vim.keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, table.move({ desc = "Show code actions" }, 1, 1, 2, opts))
+					vim.keymap.set("n", "gr", vim.lsp.buf.references, table.move({ desc = "Show references" }, 1, 1, 2, opts))
 					vim.keymap.set("n", "<leader>f", function()
 						vim.lsp.buf.format({ async = true })
-					end, opts)
+					end, table.move({ desc = "Format" }, 1, 1, 2, opts))
 			end,
 			})
 
