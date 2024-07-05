@@ -1,1 +1,0 @@
-alias dotfiles='/usr/bin/git --git-dir=/home/francisco/.dotfiles/ --work-tree=/home/francisco'

@@ -1,3 +1,0 @@
-0000000000000000000000000000000000000000 bf7f4aaa7d1ed54910f29a816407e53a88878605 Francisco Noriega <fran@readyset.io> 1712441178 -0300	commit (initial): Pushing initial dotfiles
-bf7f4aaa7d1ed54910f29a816407e53a88878605 bf7f4aaa7d1ed54910f29a816407e53a88878605 Francisco Noriega <fran@readyset.io> 1712441321 -0300	Branch: renamed refs/heads/master to refs/heads/main
-bf7f4aaa7d1ed54910f29a816407e53a88878605 650fa2ba56eae34c70c9b1c70ebc8c73ef1f8220 Francisco Noriega <fran@readyset.io> 1712964356 -0300	commit: Added .aliases and cleaned up some plugins
