@@ -17,6 +17,10 @@ return {
 				-- Python
 				null_ls.builtins.formatting.black,
 				null_ls.builtins.formatting.isort,
+				-- JSON/YAML
+				null_ls.builtins.formatting.prettier,
+				-- Git commit
+				null_ls.builtins.formatting.gitlint,
 			},
 		})
 
