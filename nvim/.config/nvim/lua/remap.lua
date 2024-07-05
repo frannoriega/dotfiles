@@ -3,10 +3,10 @@ vim.g.mapleader = " "
 local keymap = vim.keymap
 
 -- Move between panes
-keymap.set("n", "<C-h>", "<cmd>wincmd h<CR>", { desc = "Focus left window" })
-keymap.set("n", "<C-j>", "<cmd>wincmd j<CR>", { desc = "Focus lower window" })
-keymap.set("n", "<C-k>", "<cmd>wincmd k<CR>", { desc = "Focus upper window" })
-keymap.set("n", "<C-l>", "<cmd>wincmd l<CR>", { desc = "Focus right window" })
+keymap.set("n", "<C-A-h>", "<cmd>wincmd h<CR>", { desc = "Focus left window" })
+keymap.set("n", "<C-A-j>", "<cmd>wincmd j<CR>", { desc = "Focus lower window" })
+keymap.set("n", "<C-A-k>", "<cmd>wincmd k<CR>", { desc = "Focus upper window" })
+keymap.set("n", "<C-A-l>", "<cmd>wincmd l<CR>", { desc = "Focus right window" })
 
 -- Quit insert mode
 keymap.set("i", "jk", "<Esc>", { desc = "Quit insert mode" })
@@ -30,8 +30,8 @@ keymap.set("n", "n", "nzzzv")
 keymap.set("n", "N", "Nzzzv")
 
 -- New tab
-keymap.set("n", "<C-t>", "<cmd>tabnew<CR>", { desc = "New tab" })
-keymap.set("n", "<C-w>", "<cmd>bdelete<CR>", { desc = "Close tab" })
+keymap.set("n", "<C-S-t>", "<cmd>tabnew<CR>", { desc = "New tab" })
+keymap.set("n", "<C-S-w>", "<cmd>bdelete<CR>", { desc = "Close tab" })
 keymap.set("n", "<tab>", "<cmd>BufferLineCycleNext<CR>", { desc = "Next tab" })
 keymap.set("n", "<s-tab>", "<cmd>BufferLineCyclePrev<CR>", { desc = "Previous tab" })
 
