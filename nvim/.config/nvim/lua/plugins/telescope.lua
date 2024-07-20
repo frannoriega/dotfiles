@@ -34,7 +34,7 @@ return {
 
 		keymap.set(
 			"n",
-			"<C-p>",
+			"<leader>pf",
 			"<cmd>lua require'telescope.builtin'.find_files({ find_command = {'rg', '--files', '--hidden', '-g', '!.git' }})<cr>",
       { desc = "Find files" }
 		)

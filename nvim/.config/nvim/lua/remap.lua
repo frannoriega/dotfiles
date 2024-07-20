@@ -30,8 +30,8 @@ keymap.set("n", "n", "nzzzv")
 keymap.set("n", "N", "Nzzzv")
 
 -- New tab
-keymap.set("n", "<C-S-t>", "<cmd>tabnew<CR>", { desc = "New tab" })
-keymap.set("n", "<C-S-w>", "<cmd>bdelete<CR>", { desc = "Close tab" })
+keymap.set("n", "<C-A-t>", "<cmd>tabnew<CR>", { desc = "New tab" })
+keymap.set("n", "<C-A-w>", "<cmd>bdelete<CR>", { desc = "Close tab" })
 keymap.set("n", "<tab>", "<cmd>BufferLineCycleNext<CR>", { desc = "Next tab" })
 keymap.set("n", "<s-tab>", "<cmd>BufferLineCyclePrev<CR>", { desc = "Previous tab" })
 
