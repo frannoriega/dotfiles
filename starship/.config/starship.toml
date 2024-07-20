@@ -1,32 +1,19 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
-format = """
-[](surface0)\
-$os\
-$username\
-[](bg:peach fg:surface0)\
+format = """\
+[](bg:#030B16 fg:#7DF9AA)\
+[󰀵 ](bg:#7DF9AA fg:#090c0c)\
+[](fg:#7DF9AA bg:#1C3A5E)\
+$time\
+[](fg:#1C3A5E bg:#3B76F0)\
 $directory\
-[](fg:peach bg:green)\
+[](fg:#3B76F0 bg:#FCF392)\
 $git_branch\
 $git_status\
-[](fg:green bg:teal)\
-$c\
-$rust\
-$golang\
-$nodejs\
-$php\
-$java\
-$kotlin\
-$haskell\
-$python\
-[](fg:teal bg:blue)\
-$docker_context\
-[](fg:blue bg:purple)\
-$time\
-[ ](fg:purple)\
-$line_break$character"""
-
-palette = 'catppuccin_mocha'
+$git_metrics\
+[](fg:#FCF392 bg:#030B1600)\
+$line_break$character\
+"""
 
 [palettes.gruvbox_dark]
 color_fg0 = '#fbf1c7'
@@ -68,6 +55,8 @@ base = "#1e1e2e"
 mantle = "#181825"
 crust = "#11111b"
 
+palette = 'catppuccin_mocha'
+
 [os]
 disabled = false
 style = "bg:surface0 fg:text"
@@ -100,8 +89,8 @@ style_root = "bg:surface0 fg:text"
 format = '[ $user ]($style)'
 
 [directory]
-style = "fg:mantle bg:peach"
-format = "[ $path ]($style)"
+style = "fg:#E4E4E4 bg:#3B76F0"
+format = "[   $path ]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
 
@@ -113,13 +102,28 @@ truncation_symbol = "…/"
 "Developer" = "󰲋 "
 
 [git_branch]
-symbol = ""
-style = "bg:teal"
-format = '[[ $symbol $branch ](fg:base bg:green)]($style)'
+symbol = "  "
+style = "fg:#1C3A5E bg:#FCF392"
+format = '[ $symbol$branch(:$remote_branch) ]($style)'
 
 [git_status]
-style = "bg:teal"
-format = '[[($all_status$ahead_behind )](fg:base bg:green)]($style)'
+style = "fg:#1C3A5E bg:#FCF392"
+format = '[$all_status]($style)'
+
+
+[git_metrics]
+format = "([+$added]($added_style))[]($added_style)"
+added_style = "fg:#1C3A5E bg:#FCF392"
+deleted_style = "fg:bright-red bg:235"
+disabled = false
+
+[hg_branch]
+format = "[ $symbol$branch ]($style)"
+symbol = " "
+
+[cmd_duration]
+format = "[  $duration ]($style)"
+style = "fg:bright-white bg:18"
 
 [nodejs]
 symbol = ""
@@ -173,17 +177,17 @@ format = '[[ $symbol( $context) ](fg:#83a598 bg:color_bg3)]($style)'
 
 [time]
 disabled = false
-time_format = "%R"
-style = "bg:peach"
-format = '[[  $time ](fg:mantle bg:purple)]($style)'
+time_format = "%R" # Hour:Minute Format
+style = "bg:#1d2230"
+format = '[[ 󱑍 $time ](bg:#1C3A5E fg:#8DFBD2)]($style)'
 
 [line_break]
 disabled = false
 
 [character]
 disabled = false
-success_symbol = '[](bold fg:green)'
-error_symbol = '[](bold fg:red)'
+success_symbol = '[ ➜](bold green) '
+error_symbol = '[ ✗](#E84D44) '
 vimcmd_symbol = '[](bold fg:creen)'
 vimcmd_replace_one_symbol = '[](bold fg:purple)'
 vimcmd_replace_symbol = '[](bold fg:purple)'
