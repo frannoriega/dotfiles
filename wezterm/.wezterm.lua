@@ -31,21 +31,23 @@ if os.capture('uname') == "Darwin" then
   local act = wezterm.action
 
   config.keys = {
-  -- Rebind OPT-Left, OPT-Right as ALT-b, ALT-f respectively to match Terminal.app behavior
-  {
-    key = 'LeftArrow',
-    mods = 'OPT',
-    action = act.SendKey {
-      key = 'b',
-      mods = 'ALT',
+    -- Rebind OPT-Left, OPT-Right as ALT-b, ALT-f respectively to match Terminal.app behavior
+    {
+      key = 'LeftArrow',
+      mods = 'OPT',
+      action = act.SendKey {
+        key = 'b',
+        mods = 'ALT',
+      },
     },
-  },
-  {
-    key = 'RightArrow',
-    mods = 'OPT',
-    action = act.SendKey { key = 'f', mods = 'ALT' },
-  },
-}
+    {
+      key = 'RightArrow',
+      mods = 'OPT',
+      action = act.SendKey { key = 'f', mods = 'ALT' },
+    },
+  }
+  config.send_composed_key_when_left_alt_is_pressed = false
+  config.send_composed_key_when_right_alt_is_pressed = true
 end
 
 -- Set catppuccin
