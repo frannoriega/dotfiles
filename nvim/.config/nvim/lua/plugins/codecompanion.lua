@@ -8,35 +8,11 @@ return {
   config = function()
     require("codecompanion").setup({
       adapters = {
-        http = {
-          openrouter = function()
-            return require("codecompanion.adapters").extend("openai_compatible", {
+        acp = {
+          claude_code = function()
+            return require("codecompanion.adapters").extend("claude_code", {
               env = {
-                url = "https://openrouter.ai/api",
-                api_key = "OPENROUTER_API_KEY",
-                chat_url = "/v1/chat/completions",
-              },
-              schema = {
-                model = {
-                  default = "anthropic/claude-sonnet-4-5",
-                  choices = {
-                    ["anthropic/claude-sonnet-4-5"] = { opts = {} },
-                    ["anthropic/claude-3.5-sonnet"] = { opts = {} },
-                    ["anthropic/claude-3-opus"] = { opts = {} },
-                    ["openai/gpt-4o"] = { opts = {} },
-                    ["openai/gpt-4o-mini"] = { opts = {} },
-                    ["google/gemini-2.5-pro-preview"] = { opts = {} },
-                    ["google/gemini-2.0-flash-001"] = { opts = {} },
-                    ["meta-llama/llama-3.3-70b-instruct"] = { opts = {} },
-                  },
-                },
-              },
-            })
-          end,
-          anthropic = function()
-            return require("codecompanion.adapters").extend("anthropic", {
-              env = {
-                api_key = "ANTHROPIC_API_KEY",
+                api_key = "CLAUDE_CODE_OAUTH_TOKEN"
               },
             })
           end,
@@ -44,23 +20,12 @@ return {
       },
       interactions = {
         chat = {
-          adapter = "openrouter",
+          adapter = "claude_code",
         },
         inline = {
-          adapter = "openrouter",
+          adapter = "claude_code",
         },
-        cmd = {
-          adapter = "openrouter",
-        },
-      },
-      display = {
-        action_palette = {
-          provider = "telescope",
-        },
-        chat = {
-          show_settings = true,
-        },
-      },
+      }
     })
 
     local keymap = vim.keymap
