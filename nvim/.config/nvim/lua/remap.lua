@@ -2,12 +2,6 @@ vim.g.mapleader = " "
 
 local keymap = vim.keymap
 
--- Move between panes
-keymap.set("n", "<C-A-h>", "<cmd>wincmd h<CR>", { desc = "Focus left window" })
-keymap.set("n", "<C-A-j>", "<cmd>wincmd j<CR>", { desc = "Focus lower window" })
-keymap.set("n", "<C-A-k>", "<cmd>wincmd k<CR>", { desc = "Focus upper window" })
-keymap.set("n", "<C-A-l>", "<cmd>wincmd l<CR>", { desc = "Focus right window" })
-
 -- Quit insert mode
 keymap.set("i", "jk", "<Esc>", { desc = "Quit insert mode" })
 
@@ -29,14 +23,20 @@ keymap.set("n", "<C-a>", "ggVG", { desc = "Select all" })
 keymap.set("n", "n", "nzzzv")
 keymap.set("n", "N", "Nzzzv")
 
--- New tab
-keymap.set("n", "<C-A-t>", "<cmd>tabnew<CR>", { desc = "New tab" })
-keymap.set("n", "<C-A-w>", "<cmd>bdelete<CR>", { desc = "Close tab" })
-keymap.set("n", "<tab>", "<cmd>BufferLineCycleNext<CR>", { desc = "Next tab" })
-keymap.set("n", "<s-tab>", "<cmd>BufferLineCyclePrev<CR>", { desc = "Previous tab" })
+-- Buffer / tab management  (<leader>b prefix)
+keymap.set("n", "<leader>bn", "<cmd>tabnew<CR>",  { desc = "New tab" })
+keymap.set("n", "<leader>bx", "<cmd>bdelete<CR>", { desc = "Close buffer" })
+keymap.set("n", "<tab>",      "<cmd>BufferLineCycleNext<CR>", { desc = "Next buffer" })
+keymap.set("n", "<s-tab>",    "<cmd>BufferLineCyclePrev<CR>", { desc = "Prev buffer" })
 
 -- Editor split view
-keymap.set("n", "<leader>v", "<C-w>v", { desc = "Split window vertically" })
-keymap.set("n", "<leader>h", "<C-w>s", { desc = "Split window horizontally" })
-keymap.set("n", "<leader>ee", "<C-w>=")
-keymap.set("n", "<leader>ww", "<cmd>close<CR>", { desc = "Close buffer" })
+keymap.set("n", "<leader>v",  "<C-w>v",         { desc = "Split vertical" })
+keymap.set("n", "<leader>h",  "<C-w>s",         { desc = "Split horizontal" })
+keymap.set("n", "<leader>=",  "<C-w>=",         { desc = "Equalize splits" })
+keymap.set("n", "<leader>ww", "<cmd>close<CR>", { desc = "Close window" })
+
+-- Window navigation (direct, no Ctrl+w prefix)
+keymap.set("n", "<C-h>", "<C-w>h", { desc = "Window left" })
+keymap.set("n", "<C-j>", "<C-w>j", { desc = "Window down" })
+keymap.set("n", "<C-k>", "<C-w>k", { desc = "Window up" })
+keymap.set("n", "<C-l>", "<C-w>l", { desc = "Window right" })

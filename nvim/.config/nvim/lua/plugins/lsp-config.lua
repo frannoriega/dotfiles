@@ -82,7 +82,7 @@ return {
           vim.keymap.set("n", "gd", vim.lsp.buf.definition, table.move({ desc = "Go to definition" }, 1, 1, 2, opts))
           vim.keymap.set("n", "K", vim.lsp.buf.hover, table.move({ desc = "Show documentation" }, 1, 1, 2, opts))
           vim.keymap.set("n", "gi", vim.lsp.buf.implementation, table.move({ desc = "Implementation?" }, 1, 1, 2, opts))
-          vim.keymap.set("n", "<C-k>", vim.lsp.buf.signature_help, table.move({ desc = "Show signature" }, 1, 1, 2, opts))
+          vim.keymap.set("i", "<C-k>", vim.lsp.buf.signature_help, table.move({ desc = "Show signature" }, 1, 1, 2, opts))
           vim.keymap.set("n", "<leader>wa", vim.lsp.buf.add_workspace_folder,
             table.move({ desc = "Add workspace folder" }, 1, 1, 2, opts))
           vim.keymap.set("n", "<leader>wr", vim.lsp.buf.remove_workspace_folder,
