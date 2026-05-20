@@ -9,3 +9,8 @@
 : 1779289345:0;cat ~/.zsh/history
 : 1779289357:0;git status
 : 1779289361:0;git add .
+: 1779289364:0;git commit
+: 1779289399:0;nvim install.sh
+: 1779284342:0;hyprctl reload
+: 1779289566:0;nvim nvim/.config/nvim/lua/plugins/comment.lua
+: 1779289864:0;nvim install.sh

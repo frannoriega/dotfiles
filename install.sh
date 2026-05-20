@@ -21,28 +21,32 @@ yay -Syu --noconfirm stow
 git clone https://github.com/frannoriega/dotfiles.git
 pushd dotfiles
 stow nvim -t ~
-stow tmux -t ~
+stow zellij -t ~
 stow shell -t ~
-stow polybar -t ~
-stow i3 -t ~
-stow rofi -t ~
+stow waybar -t ~
+stow hyprland -t ~
+stow hypridle -t ~
+stow hyprlock -t ~
+stow hyprpaper -t ~
+stow backgrounds -t ~
+# stow rofi -t ~
 
 
 ## Nerd fonts
 yay -Syu --noconfirm ttf-hack-nerd
 
 ## Picom
-sudo pacman -Syu --noconfirm libconfig-dev libdbus-1-dev libegl-dev libev-dev libgl-dev libepoxy-dev libpcre2-dev libpixman-1-dev libx11-xcb-dev libxcb1-dev libxcb-composite0-dev libxcb-damage0-dev libxcb-glx0-dev libxcb-image0-dev libxcb-present-dev libxcb-randr0-dev libxcb-render0-dev libxcb-render-util0-dev libxcb-shape0-dev libxcb-util-dev libxcb-xfixes0-dev meson ninja-build uthash-dev
-yay -Syu --noconfirm picom
+# sudo pacman -Syu --noconfirm libconfig-dev libdbus-1-dev libegl-dev libev-dev libgl-dev libepoxy-dev libpcre2-dev libpixman-1-dev libx11-xcb-dev libxcb1-dev libxcb-composite0-dev libxcb-damage0-dev libxcb-glx0-dev libxcb-image0-dev libxcb-present-dev libxcb-randr0-dev libxcb-render0-dev libxcb-render-util0-dev libxcb-shape0-dev libxcb-util-dev libxcb-xfixes0-dev meson ninja-build uthash-dev
+# yay -Syu --noconfirm picom
 
-## WezTerm
-yay -Syu --noconfirm wezterm
+## Terminal (Ghostty)
+yay -Syu --noconfirm ghostty
 
 ## Rust
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 ## Zellij
-
+yay -Syu --noconfirm zellij
 
 ## Starship
 curl -sS https://starship.rs/install.sh | sh
@@ -52,9 +56,9 @@ yay -Syu --noconfirm pavucontrol
 
 # Install developing essentials
 ## Docker
-yay -Syu --noconfirm docker
-systemctl enable docker
-systemctl start docker
+yay -Syu --noconfirm docker-desktop
+# systemctl enable docker
+# systemctl start docker
 
 ## 
 
