@@ -14,3 +14,1007 @@
 : 1779284342:0;hyprctl reload
 : 1779289566:0;nvim nvim/.config/nvim/lua/plugins/comment.lua
 : 1779289864:0;nvim install.sh
+: 1779290248:0;cd ..
+: 1779290250:0;cd lanube
+: 1779290255:0;cat docker/docker-compose.timemock.yml
+: 1779290443:0;cat /usr/share/applications/docker-desktop.desktop
+: 1779290568:0;sudo systemctl enable --now docker\
+sudo usermod -aG docker $USER
+: 1779290583:0;lazydocker
+: 1779290620:0;yay -S docker docker-compose
+: 1779290646:0;sudo systemctl enable --now docker\
+sudo usermod -aG docker $USER
+: 1779290653:0;lazydocker
+: 1779290699:0;newgrp docker
+: 1779290701:0;lazydocker
+: 1779290716:0;cat docker/docker-compose.timemock.yml
+: 1779290722:0;docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1779290730:0;newgrp docker
+: 1779290733:0;docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1779290784:0;nvim ~/.docker/config.json
+: 1779290797:0;docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1779283116:0;cd Workspace/personal/lanube
+: 1779290850:0;nvim .
+: 1779283673:225;nvim .
+: 1779283900:7593;claude
+: 1779291495:0;claude
+: 1779291784:0;nvim .
+: 1779300542:0;cd ../lanube
+: 1779300544:0;npx next build
+: 1779300556:0;npx next clean
+: 1779300560:0;npm build
+: 1779300565:0;npm run build
+: 1779300653:0;npm run build
+: 1779300745:0;sudo rm -rf .next
+: 1779300749:0;npm run build
+: 1779301008:0;newgrp docker
+: 1779301015:0;sudo rm -rf .next
+: 1779301023:0;newgrp docker
+: 1779301032:0;nvim .
+: 1779301044:0;npm run build
+: 1779303574:0;npm run build
+: 1779304172:0;npm run build
+: 1779304176:0;next build
+: 1779304183:0;npm next build
+: 1779304187:0;npx next build
+: 1779304200:0;sudo rm -rf .next
+: 1779304206:0;npx next build
+: 1779304280:0;shutdown now
+: 1779314713:0;cd Workspace/personal/lanube
+: 1779314725:0;docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1779314731:0;lazydocker
+: 1779314834:0;nvim .
+: 1779315016:0;cat ~/.claude.json
+: 1779315030:0;nvim ../dotfiles
+: 1779315069:0;env
+: 1779315088:0;cat ~/.zshrc
+: 1779316895:0;claude
+: 1779316909:0;cd ../dotfiles
+: 1779316910:0;claude
+: 1779317020:0;claude
+: 1779317059:0;nvim .
+: 1779318150:0;cd ../lanube
+: 1779318154:0;npx next build
+: 1779318160:0;rm -rf .next
+: 1779318166:0;sudo rm -rf .next
+: 1779318177:0;npx next build
+: 1779318196:0;systemctl list
+: 1779318201:0;systemctl
+: 1779335967:0;ls
+: 1779335973:0;cat docker/docker-compose.timemock.yml
+: 1779337034:0;shutdown now
+: 1779392166:0;cd Workspace/personal/lanube
+: 1779392191:0;ls
+: 1779392199:0;cat docker/docker-compose.timemock.yml
+: 1779392213:0;lazydocker
+: 1779392226:0;nvim .
+: 1779394043:0;nvim .
+: 1779394137:0;nvim .
+: 1779394268:0;claude setup-token
+: 1779394333:0;export CLAUDE_CODE_OAUTH_TOKEN=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
+: 1779394336:0;nvim .
+: 1779395627:0;lazydocker
+: 1779406800:0;npx shadcn@latest add chart
+: 1779407495:0;npm ci
+: 1779407529:0;sudo npm ci
+: 1779407636:0;chown
+: 1779407641:0;chown --help
+: 1779407661:0;sudo chown -hR francisco .
+: 1779407665:0;npm ci
+: 1779407798:0;ls
+: 1779407803:0;rm package-lock.json
+: 1779407807:0;npm ci
+: 1779407825:0;npm i
+: 1779407913:0;npx next dev
+: 1779408109:0;node -v
+: 1779408207:0;cat docker/docker-compose.timemock.yml
+: 1779408219:0;FAKETIME='@2026-04-08 12:00:00' docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1779408365:0;FAKETIME='@2026-04-08 12:00:00' docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1779408584:0;npm ci
+: 1779408662:0;FAKETIME='@2026-04-08 12:00:00' docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1779408804:0;rm -rf node_modules package-lock.json
+: 1779408807:0;npm i
+: 1779409093:0;npm i
+: 1779409132:0;sudo chown -hR francisco .
+: 1779409136:0;npm i
+: 1779409253:0;npm update --save 
+: 1779409297:0;npm audit
+: 1779409503:0;npm i
+: 1779409553:0;FAKETIME='@2026-04-08 12:00:00' docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1779410142:0;npx next build
+: 1779410511:0;npx next dev
+: 1779410530:0;FAKETIME='@2026-04-08 12:00:00' docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1779410549:0;npx next build
+: 1779410730:0;npx next build
+: 1779410759:0;FAKETIME='@2026-04-08 12:00:00' docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1779411392:0;FAKETIME='@2026-04-08 12:00:00' docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1779411809:0;claude
+: 1779422764:0;FAKETIME='@2026-04-08 12:00:00' docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1779422833:0;FAKETIME='@2026-04-08 12:00:00' docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1779422879:0;npm ci
+: 1779422943:0;docker cp
+: 1779422975:0;docker cp lanube-app:/root/.npm/_logs/2026-04-08T12_00_00_105Z-debug-0.log debug.log
+: 1779423136:0;FAKETIME='@2026-04-08 12:00:00' docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1779423198:0;FAKETIME='@2026-04-08 12:00:00' docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1779423462:0;shutdown now
+: 1779452745:0;cd Workspace/personal/lanube
+: 1779452754:0;FAKETIME='@2026-04-08 12:00:00' docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1779452759:0;lazydocker
+: 1779452777:0;nvim .
+: 1779452784:0;claude
+: 1779452917:0;claude
+: 1779453696:0;npm i --save react-is
+: 1779456082:0;shutdown now
+: 1779485056:0;cd Workspace/personal/lanube
+: 1779485067:0;FAKETIME='@2026-04-08 12:00:00' docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1779485072:0;lazydocker
+: 1779485080:0;nvim .
+: 1779485297:0;claude
+: 1779486077:0;yay -S vlc
+: 1779486137:0;yay -S vlc
+: 1779486177:0;yay -Syu
+: 1779486397:0;iftop
+: 1779486402:0;yay -S iftop
+: 1779486529:0;ifstat
+: 1779487047:0;yay -S vlc
+: 1779487062:0;yazi
+: 1779487186:0;yay -S exfat-utils
+: 1779487344:0;yay -S ffmpeg
+: 1779487379:0;yay -S vlc-plugin-ffmpeg
+: 1779487540:0;exit
+: 1779487557:0;exit
+: 1779487561:0;yazi
+: 1779490144:0;npx shadcn@latest add table
+: 1779490319:0;nvim ../dotfiles
+: 1779490662:0;cd ../dotfiles
+: 1779490664:0;claude
+: 1779491647:0;nvim .
+: 1779491808:0;exit
+: 1779491812:0;yazi
+: 1779493160:0;shutdown now
+: 1779559280:0;cd Workspace/personal/dotfiles
+: 1779559282:0;nvim
+: 1779559288:0;nvim .
+: 1779559317:0;waybar
+: 1779559325:0;waybar &
+: 1779559388:0;hyprland reload
+: 1779584646:0;exit
+: 1779584648:0;yazi
+: 1779584970:0;yay -S svix
+: 1779584978:0;yay -S sxiv
+: 1779585085:0;nvim ~/.config
+: 1779585112:0;yazi
+: 1779585167:0;yazi
+: 1779585259:0;yazi
+: 1779585613:0;FAKETIME='@2026-04-08 12:00:00' docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1779585620:0;cd ../lanube
+: 1779585623:0;FAKETIME='@2026-04-08 12:00:00' docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1779585629:0;lazydocker
+: 1779585637:0;cd ../lanube
+: 1779585640:0;claude
+: 1779585644:0;cd ../lanube
+: 1779585647:0;nvim .
+: 1779591396:0;yazi
+: 1779598522:0;shutdown now
+: 1779750674:0;cd Workspace/personal/lanube
+: 1779750685:0;claude
+: 1779750692:0;FAKETIME='@2026-04-08 12:00:00' docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1779750695:0;lazydocker
+: 1779750757:0;nvim .
+: 1779752145:0;shutdown now
+: 1779823917:0;yay -S ffmpegthumbnailer gst-libav gst-plugins-ugly
+: 1779824327:0;shutdown now
+: 1779825216:0;cd Workspace/personal/lanube
+: 1779825222:0;claude
+: 1779825225:0;FAKETIME='@2026-04-08 12:00:00' docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1779825229:0;lazydocker
+: 1779829599:0;nvim .
+: 1779836472:0;cd ../dotfiles
+: 1779836473:0;nvim .
+: 1779839967:0;yay -S sonic-pi
+: 1779841096:0;cd ../
+: 1779841097:0;ls
+: 1779841101:0;mkdir music
+: 1779841102:0;cd music
+: 1779841105:0;mkdir test
+: 1779841107:0;nvim test
+: 1779841195:0;which sonic-pi
+: 1779841232:0;sonic-pi
+: 1779841306:0;sonic-pi
+: 1779841319:0;claude
+: 1779841799:0;yay -S pipewire-jack
+: 1779841849:0;nvim .
+: 1779848193:0;shutdown now
+: 1779914394:0;yazi
+: 1779918260:0;yay -S obsidian
+: 1779938976:0;shutdown now
+: 1779993708:0;cd Workspace/personal
+: 1779993711:0;git clone git@github.com:frannoriega/ensamble.git
+: 1779994008:0;cd ensamble
+: 1779994015:0;mv ~/Downloads/ENSAMBLE_IMPLEMENTATION_SPEC.md .
+: 1779994019:0;claude
+: 1779995045:0;cd ../lanube
+: 1779995047:0;nvim
+: 1779995050:0;nvim .
+: 1779995119:0;nvim .
+: 1779995174:0;claude
+: 1780009614:0;cd ../lanube
+: 1780009616:0;nvim .
+: 1780010858:0;prettier --check .
+: 1780010874:0;npm format:check
+: 1780010879:0;npm run format:check
+: 1780032306:0;shutdown now
+: 1780070520:0;cd Workspace/personal/lanube
+: 1780070523:0;git status
+: 1780070565:0;claude
+: 1780070582:0;nvim .
+: 1780072029:0;npm install --save-dev --save-exact prettier
+: 1780072055:0;npx prettier --check .
+: 1780072792:0;vercel
+: 1780072814:0;npm i -g vercel
+: 1780072917:0;sudo npm i -g vercel
+: 1780073077:0;curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
+: 1780073091:0;nvm install --lts
+: 1780073100:0;nvm install --lts
+: 1780073113:0;npm i -g vercel
+: 1780073134:0;vercel link
+: 1780073141:0;vercel link
+: 1780073247:0;vercel env pull .env.development.local
+: 1780073378:0;source .env.preview
+: 1780073425:0;env
+: 1780073437:0;set -a && source .env.preview
+: 1780073438:0;env
+: 1780073458:0;npx prisma migrate --reset
+: 1780073466:0;npx prisma migrate reset
+: 1780073516:0;npm i -g dotenv-cli
+: 1780073627:0;npx reset:preview
+: 1780073633:0;npm run reset:preview
+: 1780074067:0;npm run reset:preview
+: 1780074172:0;npm run reset:preview
+: 1780074282:0;npm run reset:preview
+: 1780074427:0;npm run seed:preview
+: 1780112701:0;shutdown now
+: 1780176807:0;exit
+: 1780176808:0;yazi
+: 1780184701:0;shutdown now
+: 1780340287:0;yay -S slack-desktop
+: 1780341428:0;cd Workspace
+: 1780341438:0;mkdir -p trabajo/awana
+: 1780341441:0;cd trabajo/awana
+: 1780341465:0;mv ~/Downloads/worker-toolkit-palolo-031.zip .
+: 1780341523:0;yay -S unzip
+: 1780341533:0;unzip worker-toolkit-palolo-031.zip
+: 1780341535:0;ls
+: 1780341538:0;cd worker-toolkit-palolo-031
+: 1780341538:0;ls
+: 1780341541:0;nvim .
+: 1780358252:0;cd explore
+: 1780358254:0;ls
+: 1780358275:0;npx @devcontainers/cli up
+: 1780358287:0;lazydocker
+: 1780370042:0;shutdown now
+: 1780422220:0;cd Workspace/trabajo/awana
+: 1780422221:0;ls
+: 1780422224:0;cd worker-toolkit-palolo-031
+: 1780422226:0;nvim .
+: 1780422236:0;cd explore
+: 1780422240:0;npx @devcontainers/cli up
+: 1780422245:0;lazydocker
+: 1780422283:0;npx @devcontainers/cli exec bash
+: 1780422295:0;cd explore
+: 1780422297:0;npx @devcontainers/cli exec bash
+: 1780422411:0;cd Workspace/personal
+: 1780422457:0;ls
+: 1780422459:0;mkdir ancora
+: 1780422461:0;cd ancora/
+: 1780422465:0;git clone git@github.com:Encuentro-de-Colectivos/encuentro-de-colectivos.git
+: 1780422582:0;ls
+: 1780422584:0;cd encuentro-de-colectivos
+: 1780422584:0;ls
+: 1780422591:0;docker compose up
+: 1780422599:0;lazydocker
+: 1780422619:0;claude
+: 1780422624:0;cd encuentro-de-colectivos
+: 1780423089:0;cd search
+: 1780423118:0;cp search/api/.env.example search/api/.env
+: 1780423132:0;cp search/.env.directus.example search/.env.directus
+: 1780423141:0;cp search/.env.example search/.env
+: 1780423165:0;nvim .
+: 1780423196:0;cp forms/.env.example forms/.env
+: 1780423238:0;cd search
+: 1780423241:0;docker compose up -d
+: 1780424487:0;lazydocker
+: 1780425507:0;npx @devcontainers/cli exec bash
+: 1780425664:0;docker compose up -d
+: 1780425705:0;docker compose up
+: 1780425723:0;lazydocker
+: 1780425744:0;docker compose up -d
+: 1780427077:0;cd ..
+: 1780427079:0;claude
+: 1780427116:0;cd ..
+: 1780427118:0;cd search/api
+: 1780427131:0;uv sync
+: 1780430498:0;ls
+: 1780430519:0;yay -S uv
+: 1780430552:0;uv sync
+: 1780430657:0;uv run flask db upgrade
+: 1780435602:0;cd Workspace/personal
+: 1780435603:0;la
+: 1780435603:0;ls
+: 1780435608:0;mkdir notas
+: 1780435610:0;cd notas
+: 1780435623:0;mkdir instagram
+: 1780435624:0;cd instagram
+: 1780435628:0;obsidian
+: 1780435767:0;claude
+: 1780436206:0;ls
+: 1780436208:0;cd instagram
+: 1780436209:0;ls
+: 1780436859:0;ls
+: 1780436880:0;mv instagram/. .
+: 1780436892:0;mv instagram/* .
+: 1780436893:0;ls
+: 1780436896:0;rm instagram
+: 1780436902:0;rm -r instagram
+: 1780439165:0;ffmpeg -protocol_whitelist file,http,https,tcp,tls,crypto -i "https://octopusmanifest.org/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/playlist_vp9.m3u8" -c copy video.mp4
+: 1780439566:0;systemctl restart NetworkManager
+: 1780439623:0;ffmpeg -protocol_whitelist file,http,https,tcp,tls,crypto -i "https://octopusmanifest.org/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/vp_7sop/v.m3u8" -c copy video.mp4
+: 1780439651:0;ffmpeg -protocol_whitelist file,http,https,tcp,tls,crypto -i "https://octopusmanifest.org/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/playlist_vp9.m3u8" -c copy video.mp4
+: 1780439736:0;ffmpeg -protocol_whitelist file,http,https,tcp,tls,crypto,html -i "https://octopusmanifest.org/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/playlist_vp9.m3u8" -c copy video.mp4
+: 1780439849:0;ffmpeg -protocol_whitelist file,http,https,tcp,tls,crypto,html -i "https://octopusmanifest.org/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/playlist_vp9.m3u8" -c copy video.mp4
+: 1780439921:0;ffmpeg -protocol_whitelist file,http,https,tcp,tls,crypto,html -i "\
+https://octopusmanifest.org/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/vp_3cop/v.m3u8" -c copy video.mp4
+: 1780439934:0;ffmpeg -protocol_whitelist file,http,https,tcp,tls,crypto,html -i "https://octopusmanifest.org/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/vp_3cop/v.m3u8" -c copy video.mp4
+: 1780439979:0;ffmpeg -protocol_whitelist file,http,https,tcp,tls,crypto,html -i "https://octopusmanifest.org/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/snd/a.m3u8" -c copy video.mp4
+: 1780440293:0;ffmpeg -user_agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" -referer "https://octopusmanifest.org" -i "https://fdc.anpustream.com/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/snd/snd5.html" -c copy "snd5.ts"\
+ffmpeg -user_agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" -referer "https://octopusmanifest.org" -i "https://fdc.anpustream.com/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/vp_io8op/a5.html" -c copy "a5.ts"\
+ffmpeg -user_agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" -referer "https://octopusmanifest.org" -i "https://fdc.anpustream.com/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/snd/snd4.html" -c copy "snd4.ts"\
+ffmpeg -user_agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" -referer "https://octopusmanifest.org" -i "https://fdc.anpustream.com/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/vp_io8op/a4.html" -c copy "a4.ts"\
+ffmpeg -user_agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" -referer "https://octopusmanifest.org" -i "https://fdc.anpustream.com/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/snd/snd3.html" -c copy "snd3.ts"\
+ffmpeg -user_agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" -referer "https://octopusmanifest.org" -i "https://fdc.anpustream.com/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/vp_io8op/a3.html" -c copy "a3.ts"\
+ffmpeg -user_agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" -referer "https://octopusmanifest.org" -i "https://fdc.anpustream.com/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/snd/snd2.html" -c copy "snd2.ts"\
+ffmpeg -user_agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" -referer "https://octopusmanifest.org" -i "https://fdc.anpustream.com/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/vp_io8op/a2.html" -c copy "a2.ts"\
+ffmpeg -user_agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" -referer "https://octopusmanifest.org" -i "https://fdc.anpustream.com/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/vp_io8op/i.mp4" -c copy "i.ts"\
+ffmpeg -user_agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" -referer "https://octopusmanifest.org/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/playlist_vp9.m3u8" -i "https://octopusmanifest.org/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/vp_io8op/v.m3u8" -c copy "v.ts"\
+ffmpeg -user_agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" -referer "https://octopusmanifest.org" -i "https://fdc.anpustream.com/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/snd/snd1.html" -c copy "snd1.ts"\
+ffmpeg -user_agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" -referer "https://octopusmanifest.org" -i "https://fdc.anpustream.com/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/vp_3cop/c1.html" -c copy "c1.ts"\
+ffmpeg -user_agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" -referer "https://octopusmanifest.org" -i "https://fdc.anpustream.com/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/snd/i.mp4" -c copy "i.ts"\
+ffmpeg -user_agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" -referer "https://octopusmanifest.org/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/playlist_vp9.m3u8" -i "https://octopusmanifest.org/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/snd/a.m3u8" -c copy "a.ts"\
+ffmpeg -user_agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" -referer "https://octopusmanifest.org" -i "https://fdc.anpustream.com/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/vp_3cop/i.mp4" -c copy "i.ts"\
+ffmpeg -user_agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" -referer "https://octopusmanifest.org/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/playlist_vp9.m3u8" -i "https://octopusmanifest.org/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/vp_3cop/v.m3u8" -c copy "v.ts"\
+ffmpeg -user_agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" -referer "https://octopusmanifest.org/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/playlist_vp9.m3u8" -i "https://octopusmanifest.org/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/playlist_vp9.m3u8" -c copy "playlist_vp9.ts"
+: 1780440391:0;yt-dlp --no-part --restrict-filenames -N 4 --user-agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36" --cookies-from-browser chrome --referer "https://octopusmanifest.org" "https://fdc.anpustream.com/682562f0-5fd6-4f46-a19b-a3ac66f4f8e3/snd/snd4.html"
+: 1780440418:0;yay -S yt-dlp
+: 1780440479:0;yay -S yt-dlp
+: 1780440651:0;yay -Syu
+: 1780440933:0;yay -S yt-dlp
+: 1780441457:0;cd Workspace/personal/notas
+: 1780441458:0;ls
+: 1780441460:0;cd secta-miercoles
+: 1780441460:0;ls
+: 1780441462:0;cd ..
+: 1780443491:0;systemctl restart NetworkManager
+: 1780445105:0;lazydocker
+: 1780445186:0;cd ..
+: 1780445187:0;cd ..
+: 1780445197:0;unzip worker-toolkit-palolo-031.zip
+: 1780445215:0;nvim .
+: 1780445237:0;cd worker-toolkit-palolo-031/explore
+: 1780445241:0;npx @devcontainers/cli up
+: 1780445256:5548;npx @devcontainers/cli exec bash
+: 1780450807:0;lazydocker
+: 1780451337:0;shutdown now
+: 1780507550:0;cd Workspace/trabajo/awana
+: 1780507551:0;ls
+: 1780507554:0;cd worker-toolkit-palolo-031
+: 1780507558:0;nvim .
+: 1780507571:0;cd explore
+: 1780507578:0;npx @devcontainers/cli up
+: 1780507586:0;npx @devcontainers/cli exec bash
+: 1780507603:0;npx @devcontainers/cli exec bash
+: 1780507643:0;npx @devcontainers/cli exec bash
+: 1780507934:0;lazydocker
+: 1780508318:0;npx @devcontainers/cli up
+: 1780508924:0;npx @devcontainers/cli exec bash
+: 1780508927:0;npx @devcontainers/cli exec bash
+: 1780508947:0;npx @devcontainers/cli exec bash
+: 1780511006:0;lazydocker
+: 1780511072:0;npx @devcontainers/cli exec bash
+: 1780516956:0;cd Workspace/personal/lanube
+: 1780516958:0;nvim .
+: 1780516966:0;claude
+: 1780519226:0;npx @devcontainers/cli up
+: 1780519750:0;npx @devcontainers/cli exec bash
+: 1780519795:0;cd explore/snapshots
+: 1780519795:0;ls
+: 1780520014:0;hyprlock
+: 1780528406:0;cd ../..
+: 1780528407:0;claude
+: 1780529830:0;nvim ~/Workspace/personal/dotfiles/nvim/.config/nvim/lua/plugins/neo-tree.lua
+: 1780530610:0;sudo chmod 644 harbor-tasks/unclear-type-param-mapping/tests/grader-guidance.md
+: 1780530635:0;sudo chown francisco harbor-tasks/unclear-type-param-mapping/tests/grader-guidance.md
+: 1780544274:0;cd explore
+: 1780544277:0;npx @devcontainers/cli exec bash
+: 1780544603:0;lazydocker
+: 1780544611:0;shutdown now
+: 1780611055:0;cd Workspace/trabajo/awana/worker-toolkit-palolo-031
+: 1780611056:0;ls
+: 1780611061:0;nvim .
+: 1780611070:0;cd explore
+: 1780611074:0;npx @devcontainers/cli up
+: 1780611082:0;npx @devcontainers/cli exec bash
+: 1780611113:0;npx @devcontainers/cli exec bash
+: 1780614798:0;npx @devcontainers/cli exec bash
+: 1780616947:0;yay -S okular
+: 1780616978:0;yay -Syu
+: 1780617263:0;yay -S okular pdfarranger
+: 1780617948:0;npx @devcontainers/cli exec bash
+: 1780617975:0;npx @devcontainers/cli exec bash
+: 1780618057:0;npx @devcontainers/cli exec bash
+: 1780618151:0;lazydocker
+: 1780618237:0;lazydocker
+: 1780620043:0;npx @devcontainers/cli up
+: 1780620054:0;npx @devcontainers/cli exec bash
+: 1780620676:0;set -a && source .env && set +a
+: 1780620679:0;claude
+: 1780621986:0;cd harbor-tasks/false-background-claim
+: 1780621987:0;ls
+: 1780621989:0;cd tests
+: 1780621989:0;ls
+: 1780622000:0;sudo chmod 644 grader-guidance.md
+: 1780622011:0;sudo chown francisco grader-guidance.md
+: 1780622216:0;hyprlock
+: 1780634332:0;lazydocker
+: 1780634347:0;shutdown now
+: 1780670930:0;cd Workspace/trabajo/awana/worker-toolkit-palolo-031
+: 1780670933:0;nvim .
+: 1780670940:0;npx @devcontainers/cli up
+: 1780670945:0;npx @devcontainers/cli exec bash
+: 1780672177:0;lazydocker
+: 1780672186:0;npx @devcontainers/cli up
+: 1780672195:0;npx @devcontainers/cli exec bash
+: 1780672219:0;lazydocker
+: 1780672241:0;npx @devcontainers/cli up
+: 1780672285:0;lazydocker
+: 1780672781:0;set -a && source .env && set +a
+: 1780672783:0;claude
+: 1780672941:0;set -a && source .env && set +a
+: 1780672943:0;claude
+: 1780672979:0;set -a && source .env && set +a
+: 1780672982:0;claude
+: 1780673148:0;cd ..
+: 1780673156:0;sudo chown -R francisco worker-toolkit-palolo-031
+: 1780674023:0;npx @devcontainers/cli exec bash
+: 1780675524:0;systemctl restart NetworkManager
+: 1780676358:0;systemctl restart NetworkManager
+: 1780677267:0;whois
+: 1780677281:0;whoami
+: 1780677287:0;id
+: 1780688171:0;claude
+: 1780688187:0;claude
+: 1780688295:0;which claude
+: 1780688310:0;sudo chown -R .
+: 1780688318:0;cd ..
+: 1780688326:0;sudo chown -R francsico worker-toolkit-palolo-031
+: 1780688338:0;sudo chown -R francisco worker-toolkit-palolo-031
+: 1780689771:0;lazydocker
+: 1780689860:0;npx @devcontainers/cli up
+: 1780689914:0;lazydocker
+: 1780690123:0;npx @devcontainers/cli up
+: 1780690135:0;lazydocker
+: 1780690168:0;npx @devcontainers/cli exec bash
+: 1780690234:0;lazydocker
+: 1780690508:0;lazydocker
+: 1780691106:0;sudo chown -R francisco worker-toolkit-palolo-031
+: 1780691665:0;npx tsx scripts/submit-task.ts false-background-claims
+: 1780691680:0;npx tsx scripts/submit-task.ts false-background-claim
+: 1780691688:0;ls
+: 1780692110:0;cd ..
+: 1780692114:0;cat tasks/NMMA67WV34DR-false-background-claim\ -\ v1.json
+: 1780717264:0;lazydocker
+: 1780717289:0;shutdown now
+: 1780783864:0;shutdown now
+: 1780811812:0;shutdown now
+: 1780876007:0;cd Workspace/personal/canchero
+: 1780876007:0;ls
+: 1780876011:0;claude
+: 1780877838:0;uv run python detect.py "videos/Fútbol 5 en Punto Gol - Partido Completo - Iusport- Mediatización Deportiva (1080p, h264).mp4"
+: 1780886913:0;shutdown now
+: 1780945080:0;cd Workspace/trabajo/awana/worker-toolkit-palolo-031
+: 1780945082:0;nvim .
+: 1780945476:0;set -a && source .env && set +a
+: 1780945478:0;claude
+: 1780949163:0;npx @devcontainers/cli up
+: 1780949168:0;npx @devcontainers/cli exec bash
+: 1780968496:0;systemctl restart NetworkManager
+: 1780972305:0;lazydocker
+: 1780972445:0;npx @devcontainers/cli up
+: 1780972898:0;npx @devcontainers/cli exec bash
+: 1780972914:0;lazydocker
+: 1780973641:0;lazydocker
+: 1780973647:0;shutdown now
+: 1781010454:0;cd Workspace/trabajo/awana/worker-toolkit-palolo-031
+: 1781010455:0;ls
+: 1781010459:0;nvim .
+: 1781010465:0;npx @devcontainers/cli up
+: 1781010472:0;lazydocker
+: 1781010484:0;npx @devcontainers/cli exec bash
+: 1781015218:0;cd ..
+: 1781015227:0;sudo chown root worker-toolkit-palolo-031
+: 1781015236:0;sudo chown -R root worker-toolkit-palolo-031
+: 1781015780:0;lazydocker
+: 1781016025:0;sudo nvim .
+: 1781016061:0;nvim .
+: 1781016075:0;npx @devcontainers/cli up
+: 1781016083:0;lazydocker
+: 1781016097:0;npx @devcontainers/cli up
+: 1781016303:0;sudo su
+: 1781016323:0;nvim .
+: 1781016358:0;lazydocker
+: 1781016376:0;sudo chown -R francisco worker-toolkit-palolo-031
+: 1781016502:0;npx @devcontainers/cli up
+: 1781016840:0;npx @devcontainers/cli exec bash
+: 1781017417:0;lazydocker
+: 1781017465:0;npx @devcontainers/cli up
+: 1781017775:0;npx @devcontainers/cli up
+: 1781017784:0;npx @devcontainers/cli exec bash
+: 1781017795:0;lazydocker
+: 1781017812:0;npx @devcontainers/cli up
+: 1781017832:0;lazydocker
+: 1781017840:0;npx @devcontainers/cli up
+: 1781019039:0;npx @devcontainers/cli exec bash
+: 1781019081:0;cd worker-toolkit-palolo-031
+: 1781019082:0;npx @devcontainers/cli exec bash
+: 1781019341:0;set -a && source .env && set +a
+: 1781019343:0;claude
+: 1781020975:0;cd Workspace/personal/notas
+: 1781020976:0;ls
+: 1781020978:0;cd instagram
+: 1781020979:0;ls
+: 1781020985:0;claude
+: 1781022703:0;cd ..
+: 1781022704:0;ls
+: 1781022710:0;unzip worker-toolkit-palolo-031.zip
+: 1781022723:0;lazydocker
+: 1781022759:0;npx @devcontainers/cli up
+: 1781027813:0;npx @devcontainers/cli exec bash
+: 1781033010:0;lazydocker
+: 1781034128:0;curl -4 claude.ai/install.sh
+: 1781034136:0;curl claude.ai/install.sh
+: 1781034166:0;curl https://claude.ai/install.sh
+: 1781034172:0;curl -4 https://claude.ai/install.sh
+: 1781034194:0;curl -4fsSL https://claude.ai/install.sh
+: 1781034211:0;lazydocker
+: 1781034321:0;lazydocker
+: 1781034357:0;cd 
+: 1781034360:0;cd Workspace
+: 1781034362:0;lazydocker
+: 1781034719:0;scripts/harbor-run harbor-tasks/false-background-claim -k 4
+: 1781034733:0;HARBOR_ENV=docker scripts/harbor-run harbor-tasks/false-background-claim -k 4
+: 1781034736:0;uv
+: 1781034746:0;uv add harbor
+: 1781034790:0;uv tool install harbor
+: 1781034924:0;HARBOR_ENV=docker scripts/harbor-run harbor-tasks/false-background-claim -k 4
+: 1781034938:0;lazydocker
+: 1781035051:0;lazydocker
+: 1781035237:0;npx @devcontainers/cli up
+: 1781035303:0;lazydocker
+: 1781035480:0;npx @devcontainers/cli exec bash
+: 1781035655:0;set -a && source .env && set +a
+: 1781035656:0;claude
+: 1781035827:0;npx @devcontainers/cli exec bash
+: 1781035962:0;harbor view harbor-jobs
+: 1781036208:0;npx @devcontainers/cli exec bash
+: 1781046377:0;yay -S kdenlive
+: 1781049038:0;claude
+: 1781049846:0;cd worker-toolkit-palolo-031
+: 1781049847:0;ls
+: 1781049851:0;sudo nvim .
+: 1781049905:0;nvim .
+: 1781049983:0;cd Workspace/personal/lanube
+: 1781049984:0;ls
+: 1781049985:0;git status
+: 1781049988:0;nvim .
+: 1781050076:0;FAKETIME='@2026-04-08 12:00:00' docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1781050083:0;FAKETIME='@2026-04-08 12:00:00' docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1781050095:0;lazydocker
+: 1781050106:0;FAKETIME='@2026-04-08 12:00:00' docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1781051117:0;claude
+: 1781051528:0;nvim report
+: 1781060489:0;for d in harbor-jobs/<job>/<task>*; do\
+  npx tsx scripts/copy-reference-run.ts "$d"\
+done
+: 1781060591:0;for d in harbor-jobs/false-background-claim/[200~for d in harbor-jobs/<job>/<task>*; do; do\
+  npx tsx scripts/copy-reference-run.ts "$d"\
+done
+: 1781060629:0;for d in harbor-jobs/false-background-claim/2026-06-09*; do\
+  npx tsx scripts/copy-reference-run.ts "$d"\
+done
+: 1781060704:0;for d in harbor-jobs/2026-06-09__23-43-35/*; do\
+  npx tsx scripts/copy-reference-run.ts "$d"\
+done
+: 1781060738:0;npx @devcontainers/cli exec bash
+: 1781061101:0;ls
+: 1781061103:0;cd ..
+: 1781061105:0;cd tasks
+: 1781061106:0;ls
+: 1781061108:0;cat NMMA67WV34DR-false-background-claim\ -\ v1.json
+: 1781062028:0;cd ..
+: 1781062030:0;ls
+: 1781062041:0;cp -r worker-toolkit-palolo-031 backup
+: 1781062050:0;sudo cp -r worker-toolkit-palolo-031 backup
+: 1781062064:0;ls
+: 1781062069:0;ls backup
+: 1781062376:0;git log
+: 1781062385:0;git checkout preview
+: 1781062388:0;git cherry-pick
+: 1781062392:0;git cherry-pick 969be99e493c49a92408547a734a8aa582b3a3b
+: 1781062399:0;git log
+: 1781062402:0;git push
+: 1781062635:0;shutdown now
+: 1781091605:0;cd Workspace/trabajo/awana/worker-toolkit-palolo-031
+: 1781091609:0;nvim .
+: 1781091615:0;npx @devcontainers/cli up
+: 1781091635:0;npx @devcontainers/cli exec bash
+: 1781091885:0;npx @devcontainers/cli exec bash
+: 1781091948:0;npx @devcontainers/cli exec bash
+: 1781091967:0;npx @devcontainers/cli exec bash
+: 1781091995:0;npx @devcontainers/cli exec bash
+: 1781092012:0;npx @devcontainers/cli exec bash
+: 1781094468:0;npx tsx scripts/submit-task.ts false-background-claim
+: 1781095037:0;shutdown now
+: 1781127645:0;cd Workspace/trabajo/awana/worker-toolkit-palolo-031
+: 1781127648:0;nvim .
+: 1781127654:0;cd explore
+: 1781127656:0;npx @devcontainers/cli up
+: 1781127663:0;lazydocker
+: 1781127793:0;cd Workspace/personal/lanube
+: 1781127794:0;nvim .
+: 1781127798:0;claude
+: 1781127858:0;cd Workspace/personal/ancora
+: 1781127858:0;ls
+: 1781127860:0;cd encuentro-de-colectivos
+: 1781127860:0;ls
+: 1781127863:0;nvim .
+: 1781127881:0;docker compose up
+: 1781127885:0;claude
+: 1781128842:0;npx @devcontainers/cli exec bash
+: 1781129318:0;systemctl restart NetworkManager
+: 1781131008:0;npx @devcontainers/cli exec bash
+: 1781131129:0;cd ../..
+: 1781131133:0;unzip worker-toolkit-palolo-031
+: 1781131229:0;cd worker-toolkit-palolo-031/explore
+: 1781131231:0;npx @devcontainers/cli exec bash
+: 1781131244:0;cd ..
+: 1781131246:0;npx @devcontainers/cli up
+: 1781131250:0;npx @devcontainers/cli exec bash
+: 1781131686:0;git checkout -b GITHUB-11
+: 1781131689:0;claude
+: 1781132175:0;docker compose up
+: 1781132639:0;docker compose build
+: 1781132734:0;claude
+: 1781132870:0;docker version
+: 1781132910:0;cat /etc/docker/features.json
+: 1781132926:0;cat /etc/docker/daemon.json
+: 1781132983:0;pacman -Qe
+: 1781132988:0;pacman -Qe | grep docker
+: 1781133140:0;docker compose build
+: 1781133217:0;echo $BUILDPLATFORM
+: 1781133223:0;unset BUILDPLATFORM
+: 1781133225:0;docker compose build
+: 1781133248:0;unset BUILDPLATFORM && docker compose build
+: 1781133283:0;lazydocker
+: 1781133454:0;unset BUILDPLATFORM && docker compose build
+: 1781147944:0;shutdown now
+: 1781214762:0;cd Workspace/personal/lanube
+: 1781214763:0;nvim .
+: 1781214772:0;FAKETIME='@2026-04-08 12:00:00' docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1781214777:0;lazydocker
+: 1781214837:0;cd Workspace/trabajo/awana/worker-toolkit-palolo-031
+: 1781214839:0;nvim .
+: 1781214843:0;cd explore
+: 1781214848:0;npx @devcontainers/cli up
+: 1781214957:0;claude
+: 1781215148:0;npx @devcontainers/cli up
+: 1781215153:0;npx @devcontainers/cli exec bash
+: 1781216437:0;cd explore/repo
+: 1781216438:0;ls
+: 1781216453:0;docker compose -f docker-compose.sandbox.yml up --build
+: 1781217704:0;cd ..
+: 1781217706:0;cd ..
+: 1781217710:0;unzip worker-toolkit-palolo-031
+: 1781217747:0;cd worker-toolkit-palolo-031/explore
+: 1781217750:0;lazydocker
+: 1781217762:0;npx @devcontainers/cli up
+: 1781217769:0;npx @devcontainers/cli exec bash
+: 1781217823:0;lazydocker
+: 1781217852:0;npx @devcontainers/cli up
+: 1781218254:0;npx @devcontainers/cli exec bash
+: 1781219783:0;cd ..
+: 1781219796:0;cp -R backup false-claim-task
+: 1781219806:0;sudo cp -R backup false-claim-task
+: 1781219823:0;cd false-claim-task
+: 1781219824:0;ls
+: 1781219853:0;rm -rf *
+: 1781219865:0;sudo rm -rf *
+: 1781219868:0;ls
+: 1781219869:0;cd ..
+: 1781219880:0;cp -R backup/* false-claim-task/*
+: 1781219887:0;sudo cp -R backup/* false-claim-task/
+: 1781219891:0;ls false-claim-task
+: 1781219894:0;cd false-claim-task
+: 1781219923:0;cd worker-toolkit-palolo-031
+: 1781219923:0;ls
+: 1781219928:0;cd ..
+: 1781219936:0;sudo rm -rf worker-toolkit-palolo-031
+: 1781219946:0;cd ..
+: 1781219949:0;unzip
+: 1781219991:0;unzip worker-toolkit-palolo-031 -d false-claim-task
+: 1781220021:0;unzip worker-toolkit-palolo-031 -d banana
+: 1781220034:0;sudo cp -R banana/worker-toolkit-palolo-031/* false-claim-task
+: 1781220039:0;cd false-claim-task
+: 1781220040:0;ls
+: 1781220044:0;npx @devcontainers/cli up
+: 1781220481:0;npx @devcontainers/cli exec bash
+: 1781220487:0;cd explore
+: 1781220488:0;ls
+: 1781220500:0;npx @devcontainers/cli up
+: 1781220518:0;nvim .
+: 1781220552:0;cp ../../worker-toolkit-palolo-031/.env .env
+: 1781220562:0;sudo cp ../../worker-toolkit-palolo-031/.env .env
+: 1781220572:0;sudo cp ../../worker-toolkit-palolo-031/.env ../.env
+: 1781220578:0;npx @devcontainers/cli up
+: 1781220585:0;ls
+: 1781220588:0;ls -h
+: 1781220590:0;ls -a
+: 1781220593:0;cd ..
+: 1781220595:0;ls -a
+: 1781220615:0;cd explore
+: 1781220618:0;npx @devcontainers/cli up
+: 1781220632:0;cd ..
+: 1781220633:0;cd ..
+: 1781220641:0;sudo chown -R francisco false-claim-task
+: 1781220644:0;cd false-claim-task/explore
+: 1781220647:0;npx @devcontainers/cli up
+: 1781220698:0;cd ../../backup/
+: 1781220699:0;ls
+: 1781220704:0;ls -a
+: 1781220718:0;ls explore
+: 1781220721:0;ls -a explore
+: 1781220731:0;ls -a explore/repo
+: 1781220847:0;npx @devcontainers/cli exec bash
+: 1781221171:0;ls
+: 1781221173:0;cd ..
+: 1781221175:0;cd ..
+: 1781221177:0;ls
+: 1781221194:0;set -a && source .env && set +a
+: 1781221196:0;claude
+: 1781221360:0;cd ..
+: 1781221362:0;cat CHANGELOG.md
+: 1781221371:0;ls
+: 1781221378:0;cat worker-toolkit-palolo-031/CHANGELOG.md
+: 1781222268:0;ls
+: 1781222272:0;nvim .
+: 1781222910:0;cd ../false-claim-task
+: 1781222910:0;ls
+: 1781222915:0;cd explore/repo
+: 1781222916:0;git status
+: 1781222930:0;cd ../../
+: 1781222937:0;cd ../backup/explore/repo
+: 1781222939:0;git status
+: 1781222994:0;cd ..
+: 1781222997:0;cd ../../false-claim-task
+: 1781222998:0;ls
+: 1781223001:0;set -a && source .env && set +a
+: 1781223002:0;claude
+: 1781224029:0;npx @devcontainers/cli down
+: 1781224054:0;npx @devcontainers/cli stop
+: 1781224064:0;lazydocker
+: 1781224092:0;cd ../false-claim-task
+: 1781224092:0;ls
+: 1781224096:0;cd explore
+: 1781224099:0;npx @devcontainers/cli up
+: 1781224127:0;npx @devcontainers/cli up
+: 1781224138:0;npx @devcontainers/cli exec bash
+: 1781224150:0;lazydocker
+: 1781224184:0;npx @devcontainers/cli up
+: 1781229942:0;lazydocker
+: 1781229975:0;npx @devcontainers/cli up
+: 1781230001:0;set -a && source .env && set +a
+: 1781230006:0;cd ..
+: 1781230008:0;claude
+: 1781230826:0;cd explore
+: 1781230828:0;npx @devcontainers/cli up
+: 1781230833:0;npx @devcontainers/cli exec bash
+: 1781230996:0;cd ..
+: 1781230999:0;lazydocker
+: 1781231111:0;docker exec gifted-curran mkdir -p \\
+  /home/francisco/Workspace/trabajo/awana/worker-toolkit-palolo-031/explore/snapshots
+: 1781231123:0;docker exec gifted_curran mkdir -p \\
+  /home/francisco/Workspace/trabajo/awana/worker-toolkit-palolo-031/explore/snapshots
+: 1781231147:0;docker cp \\
+  /home/francisco/Workspace/trabajo/awana/worker-toolkit-palolo-031/explore/snapshots/20260605-003037-false-background-claim \\
+  gifted_curran:/home/francisco/Workspace/trabajo/awana/worker-toolkit-palolo-031/explore/snapshots/
+: 1781231154:0;npx @devcontainers/cli exec bash
+: 1781231171:0;cd explore
+: 1781231173:0;npx @devcontainers/cli exec bash
+: 1781232403:0;lazydocker
+: 1781232414:0;shutdown nwo
+: 1781232417:0;shutdown now
+: 1781284782:0;cd Workspace/trabajo/awana/worker-toolkit-palolo-031
+: 1781284785:0;cd explore
+: 1781284793:0;npx @devcontainers/cli up
+: 1781284807:0;npx @devcontainers/cli exec bash
+: 1781284873:0;cd ..
+: 1781284875:0;claude
+: 1781285291:0;nvim .
+: 1781285376:0;claude
+: 1781296355:0;cd ..
+: 1781296360:0;npx @devcontainers/cli up
+: 1781297815:0;npx @devcontainers/cli exec bash
+: 1781298026:0;cd ..
+: 1781298039:0;sudo chown -R francisco worker-toolkit-palolo-031
+: 1781300234:0;yay -Syu
+: 1781300525:0;yay -S stremio
+: 1781306932:0;top
+: 1781312305:0;yay -S stremio
+: 1781312318:0;yay -S stremio
+: 1781312336:0;yay -S stremio
+: 1781312362:0;yay -S stremio
+: 1781312376:0;systemctl restart NetworkManager
+: 1781312384:0;yay -S stremio
+: 1781330853:0;lazydocker
+: 1781330864:0;shutdown now
+: 1781385615:0;cd Workspace/trabajo/awana/worker-toolkit-palolo-031
+: 1781385619:0;nvim .
+: 1781385627:0;npx @devcontainers/cli up
+: 1781385636:0;npx @devcontainers/cli exec bash
+: 1781408623:0;shutdown now
+: 1781573733:0;shutdown now
+: 1781616995:0;cd Workspace/personal/ancora/encuentro-de-colectivos
+: 1781616996:0;ls
+: 1781617008:0;docker compose up
+: 1781620815:0;cat docker-compose.yml
+: 1781620830:0;cat search/Dockerfile
+: 1781620851:0;BUILDPLATFORM=linux/amd docker compose up
+: 1781620948:0;claude
+: 1781621007:0;yay -R docker-compose
+: 1781621020:0;docker compose up
+: 1781621025:0;docker info
+: 1781621062:0;yay -S docker-compose docker-buildx
+: 1781621076:0;docker compose up
+: 1781621160:0;ls
+: 1781621168:0;cat README.md
+: 1781621228:0;docker compose up
+: 1781621548:0;docker compose up db typesense redis docling
+: 1781621553:0;yay -S overmind
+: 1781621565:0;yay -Syu
+: 1781621587:0;yay -Syu
+: 1781622092:0;yay -S overmind
+: 1781622137:0;overmind
+: 1781622140:0;overmind start
+: 1781622179:0;yay -S vite
+: 1781622235:0;cd Workspace/trabajo
+: 1781622589:0;yay -S vite
+: 1781622629:0;yay -S libglm-dev
+: 1781622680:0;yay -S glm
+: 1781622687:0;yay -S vite
+: 1781622890:0;cd forms
+: 1781622892:0;npm i
+: 1781623003:0;cd ../search
+: 1781623005:0;npm i
+: 1781623020:0;overmind start
+: 1781623093:0;lazydocker
+: 1781624213:0;docker compose up db typesense redis docling
+: 1781624222:0;overmind start
+: 1781632950:0;nvim .
+: 1781633022:0;overmind start
+: 1781633171:0;overmind start
+: 1781633495:0;overmind start
+: 1781635651:0;yay -S gqview
+: 1781636762:0;shutdown now
+: 1781737591:0;cd Workspace/trabajo/awana/worker-toolkit-palolo-031
+: 1781737593:0;nvim /
+: 1781737600:0;nvim .
+: 1781737604:0;cd explore
+: 1781737607:0;npx @devcontainers/cli up
+: 1781737620:0;npx @devcontainers/cli exec bash
+: 1781737766:0;cd Workspace/personal/lanube
+: 1781737768:0;git status
+: 1781737783:0;nvim .
+: 1781737789:0;FAKETIME='@2026-04-08 12:00:00' docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1781737806:0;claude
+: 1781737926:0;npx @devcontainers/cli exec bash
+: 1781738017:0;FAKETIME='@2026-04-08 12:00:00' APP_PORT=3100 docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1781738034:0;lazydocker
+: 1781738167:0;cd Workspace/personal/dotfiles
+: 1781738168:0;nvim .
+: 1781738221:0;hyprland reload
+: 1781738252:0;hyprctl reload
+: 1781738344:0;claude
+: 1781749188:0;shutdown now
+: 1781814149:0;cd Workspace/trabajo/awana/worker-toolkit-palolo-031
+: 1781814151:0;nvim .
+: 1781814154:0;cd explore
+: 1781814156:0;npx @devcontainers/cli up
+: 1781814165:0;npx @devcontainers/cli exec bash
+: 1781814216:0;cd Workspace/personal/lanube
+: 1781814217:0;nvim .
+: 1781814224:0;FAKETIME='@2026-04-08 12:00:00' APP_PORT=3100 docker compose -f docker/docker-compose.yml -f docker/docker-compose.timemock.yml up
+: 1781814228:0;lazydocker
+: 1781814232:0;claude
+: 1781815019:0;pwd
+: 1781815043:0;cd 
+: 1781815044:0;cd Downloads
+: 1781815045:0;ls
+: 1781840315:0;shutdown now
+: 1781878616:0;cd Workspace/trabajo/awana/worker-toolkit-palolo-031
+: 1781878619:0;nvim .
+: 1781878622:0;cd explore
+: 1781878625:0;npx @devcontainers/cli up
+: 1781899337:0;npx @devcontainers/cli up
+: 1781899372:0;cd ..
+: 1781899374:0;npx @devcontainers/cli up
+: 1781899378:0;npx @devcontainers/cli exec bash
+: 1781899581:0;cd ..
+: 1781899586:0;unzip worker-toolkit-palolo-031.zip
+: 1781933025:0;shutdown now
+: 1782156975:0;cd Workspace/trabajo/awana/worker-toolkit-palolo-031
+: 1782156977:0;ls
+: 1782156981:0;nvim .
+: 1782156986:0;cd exlp
+: 1782156989:0;cd explore
+: 1782156992:0;npx @devcontainers/cli up
+: 1782157016:0;cd ..
+: 1782157018:0;npx @devcontainers/cli up
+: 1782157027:0;npx @devcontainers/cli exec bash
+: 1782157146:0;cd explore
+: 1782157148:0;npx @devcontainers/cli up
+: 1782157155:0;npx @devcontainers/cli exec bash
+: 1782159356:0;cd explore
+: 1782159357:0;git
+: 1782159359:0;git status
+: 1782159362:0;cd repo
+: 1782159362:0;ls
+: 1782159364:0;git status
+: 1782159366:0;cd ..
+: 1782159367:0;cd ..
+: 1782159368:0;ls
+: 1782159370:0;cd repo
+: 1782159370:0;ls
+: 1782159385:0;cd ..
+: 1782159389:0;cat CHANGELOG.md
+: 1782159405:0;git log
+: 1782159454:0;cd explore/snapshots
+: 1782159455:0;ls
+: 1782159464:0;rm -rf 20260619-002910-assumed-eligibility-criteria
+: 1782159471:0;sudo rm -rf 20260619-002910-assumed-eligibility-criteria
+: 1782159517:0;cd ../..
+: 1782159518:0;ls
+: 1782159526:0;sudo rm -rf harbor-tasks/assumed-eligibility-criteria
+: 1782164027:0;cd Workspace/personal/ancora/encuentro-de-colectivos
+: 1782164028:0;ls
+: 1782164032:0;nvim .
+: 1782164039:0;claude
+: 1782167242:0;cd ..
+: 1782167244:0;npx @devcontainers/cli exec bash
+: 1782167316:0;docker compose -f docker-compose.dev.yml up --build
+: 1782185772:0;shutdown now
+: 1782233428:0;cd Workspace/personal/ancora/encuentro-de-colectivos
+: 1782233431:0;nvim .
+: 1782233440:0;docker compose -f docker-compose.dev.yml up --build
+: 1782233447:0;claude
+: 1782233454:0;lazydocker
+: 1782233500:0;docker compose -f docker-compose.dev.yml exec search_backend uv run flask db upgrade
+: 1782233521:0;docker compose -f docker-compose.dev.yml up --build
+: 1782233571:0;docker compose -f docker-compose.dev.yml up --build
+: 1782236728:0;docker compose -f docker-compose.dev.yml up --build
+: 1782236778:0;docker compose -f docker-compose.dev.yml up --build
+: 1782236838:0;docker compose -f docker-compose.dev.yml up --build
+: 1782236849:0;docker compose -f docker-compose.dev.yml up --build
+: 1782236918:0;docker compose -f docker-compose.dev.yml up --build
+: 1782236961:0;docker compose -f docker-compose.dev.yml exec search_backend uv run flask db upgrade
+: 1782237219:0;cd ../../dotfiles
+: 1782237221:0;nvim .
+: 1782237257:0;git status
+: 1782237271:0;git add .

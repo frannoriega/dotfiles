@@ -39,6 +39,17 @@ return {
           { name = "buffer" },
         }),
       })
+
+      -- SonicPi: add the sonicpi source (registered by sonicpi.nvim) for sonicpi files
+      cmp.setup.filetype('sonicpi', {
+        sources = cmp.config.sources({
+          { name = 'sonicpi' },
+          { name = 'nvim_lsp' },
+          { name = 'luasnip' },
+        }, {
+          { name = 'buffer' },
+        }),
+      })
     end,
   },
 }

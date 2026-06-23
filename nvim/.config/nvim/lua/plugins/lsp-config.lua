@@ -25,7 +25,8 @@ return {
           'bashls',
           'pyright',
           'dockerls',
-          'taplo'
+          'taplo',
+          'solargraph',
         }
       }
     end
@@ -46,6 +47,19 @@ return {
       local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
       vim.lsp.config('*', { capabilities = capabilities })
+
+      -- Solargraph for SonicPi diagnostics only (restricted to sonicpi filetype)
+      vim.lsp.config('solargraph', {
+        filetypes = { 'sonicpi' },
+        settings = {
+          solargraph = { diagnostics = true },
+        },
+        on_init = function(client)
+          local ok, sonicpi = pcall(require, 'sonicpi')
+          if ok then sonicpi.lsp_on_init(client) end
+        end,
+      })
+
       vim.lsp.enable({
         'lua_ls',
         'html',
@@ -58,6 +72,7 @@ return {
         'pyright',
         'dockerls',
         'taplo',
+        'solargraph',
       })
 
       -- Global mappings.

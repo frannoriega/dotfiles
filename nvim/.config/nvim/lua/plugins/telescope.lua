@@ -44,6 +44,35 @@ return {
 		keymap.set("n", "<leader>gc", "<cmd>Telescope git_commits<cr>", { desc = "Show git commits" })
 		keymap.set("n", "<leader>gfc", "<cmd>Telescope git_bcommits<cr>", { desc = "Show git bcommits?" })
 		keymap.set("n", "<leader>gb", "<cmd>Telescope git_branches<cr>", { desc = "Show git branches" })
-		keymap.set("n", "<leader>gs", "<cmd>Telescope git_status<cr>", { desc = "Git status" })
+		local function git_status_with_staging()
+			local action_state = require("telescope.actions.state")
+			local actions = require("telescope.actions")
+
+			local function stage_file(bufnr)
+				local entry = action_state.get_selected_entry()
+				if not entry then return end
+				vim.fn.system("git add " .. vim.fn.shellescape(entry.path))
+				actions.close(bufnr)
+				vim.defer_fn(git_status_with_staging, 50)
+			end
+
+			local function unstage_file(bufnr)
+				local entry = action_state.get_selected_entry()
+				if not entry then return end
+				vim.fn.system("git restore --staged " .. vim.fn.shellescape(entry.path))
+				actions.close(bufnr)
+				vim.defer_fn(git_status_with_staging, 50)
+			end
+
+			require("telescope.builtin").git_status({
+				attach_mappings = function(_, map)
+					map({ "i", "n" }, "<C-s>", stage_file)
+					map({ "i", "n" }, "<C-r>", unstage_file)
+					return true
+				end,
+			})
+		end
+
+		keymap.set("n", "<leader>gs", git_status_with_staging, { desc = "Git status (stage: <C-s>, unstage: <C-r>)" })
 	end,
 }
